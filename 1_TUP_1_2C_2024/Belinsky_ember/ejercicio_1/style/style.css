@@ -1,8 +1,7 @@
 .card{
-    box-shadow: 0px 40px 20px rgba(75, 0, 71, 0.555);
+    box-shadow: 0px 40px 40px rgba(75, 0, 71, 0.555);
     border-radius: 10px;
     max-width: 800px;
-    margin: auto;
     text-align: center;
     font-family: 'Rockwell', Courier, Georgia, Times, 'Times New Roman', serif;
     background-image: url('../assets/luffy_manga_collage.jpg');
@@ -11,74 +10,83 @@
     inset-inline-end: 5px;
     font-size: 18px;
     border: 5px solid rgb(165, 33, 125); /* Borde alrededor de todo el main */
-    padding: -20px; /* Espacio entre el borde y el contenido interno */
+    padding: center;
     margin: 20px auto;
 } 
 
+.caracteristicas{
+    border: solid, 2px;
+    border-color: rgb(165, 33, 125);
+    outline: 5px;
+    display: inline-block;
+    padding: 8px 8px;
+    color: rgb(157, 182, 15);
+    background-color: rgb(165, 33, 125);
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: -600px;
+    z-index: 4;
+}
 
+a{
+color: greenyellow;
+position: left;
+font-style: bold;
+}
 
 .title{
     color: rgb(157, 182, 15);
     font-size: 18px;
 }
 
-.delineado{
-    border: 5px solid rgb(165, 33, 125); /* Borde alrededor de todo el main */
-    padding: 20px; /* Espacio entre el borde y el contenido interno */
-    margin: 20px auto;
-}
-
-.subCard {
-    padding: 10px;
-    text-align: left;
-    box-shadow: 0px 40px 20px rgba(75, 0, 71, 0.555);
-    border-radius: 10px;
-    max-width: 70%;
-    margin: auto;
-    margin-top: -10px;
-    text-align: center;
-    font-family: 'Rockwell', Courier, Georgia, Times, 'Times New Roman', serif;
-    inset-inline-end: 5px;
-    background-color: rgb(165, 33, 125);
-}
-
-.subCard img {
-    display: block;
-    margin: 0 auto;
-    width: 90px;
-
-}
-
-
 main{
     color:  rgb(157, 182, 15);
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 body{
-    background-color: rgb(245, 220, 224);
+    background-color: rgb(245, 220, 224);   
+}
+
+
+#berry{
+    width: 21px; 
+    height: 21px; 
+}
+
+#fruta{
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+}
+
+#luffy{
+   z-index: auto 6; 
+   position: center;
+   padding: 0%;
+   margin-bottom: -85%;
+}
+
+#recuadro{
+    position: top relative;
+    border: solid;
+    border-color: rgb(165, 33, 125);
+    border-radius: 10px;
+    background-color: rgba(75, 64, 64, 0.144);
+    flood-opacity: 0.29;
+    z-index: 3;
+    height: 980px;
+    width: 72%;
+    margin: 14% auto;
+    margin-top: 5% ;
+    margin-bottom: 10%;
     
 }
 
-.caracteristicas{
-    border: None;
-    outline: 0;
-    display: inline-block;
-    padding: 8px 8px;
-    color: rgb(157, 182, 15);
-    background-color: rgb(165, 33, 125);
-    text-align: center;
-    cursor: pointer;
-    width: 70%;
-    border-radius: 10px;
-    img {
-        width: 21px; 
-        height: 21px; 
-    }
-}
 
-a{
-color: greenyellow;
-}
+
+
 
