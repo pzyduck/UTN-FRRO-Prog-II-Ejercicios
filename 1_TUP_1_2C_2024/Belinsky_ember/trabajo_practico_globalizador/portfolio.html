@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Portfolio de Ember Belinsky</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img id="retrato" src=.\assets\ember_foto.webp alt="foto de perfil de ember">
+            <h1>Ember Belinsky </h1>
+            <h2>Fotografe</h2>
+            <p>Artista digital y analógico</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="bio">
+            <h2>Información Personal</h2>
+            <p>Soy Fotógrafe con experiencia en estudio, he liderado equipo de trabajos. Me desempeño en la dirección
+                de Arte. Me esfuerzo por conseguir la mejor toma y aprovechar los recursos disponibles.</p>
+            <divm class="Intereses">
+                <p>
+                <h3>Lista de Intereses</h3>
+                </p>
+                <ul>
+                    <li>Collage</li>
+                    <li>Literatura y poesía</li>
+                    <li>Cine</li>
+                </ul>
+            </divm>
+        </div>
+
+        <h3>Proyectos a destacar</h3>
+
+        <div class="foto">
+            <h4>Photoshoot: Cowboy Bebop</h4>
+            <h4>Fotografías de estudio fotografico</h4>  
+            <a href="https://www.behance.net/gallery/157830891/Cowboy-Bebop">Ver más</a>
+        </div>
+
+        <div class="collage">
+            <h4>"La Esperanza n°17"</h4>
+            <h4>Proyeco de collage con fotografía propia.</h4>
+            <h4>VII FAD: Expone - Arte y Paz: Construir Convivenica Armonica</h4>
+            <img id="cuadro" src=.\assets\La_esperanza_n°17_ember_belinsky1-1.webp alt="foto de la pieza de collage la esperanza n°17">
+            <a href="https://www.instagram.com/p/CxYXNastTbl/?igsh=MWFyOTVtZGI1M3RyaQ%3D%3D">Ver más</a>
+        </div>
+
+        <div class="juego">
+            <h4>Carrera de Mentes: Videojuego</h4>
+            <h4>Dirección de Arte</h4>
+            <img id="frame1" src=.\assets\frame1.png alt="Miniatura del videojuego">
+            <a href="https://algieba15.itch.io/carrera-de-mentes" target="_blank">Ver más</a>
+        </div>
+    </main>
+
+    <footer class="contact">
+
+        <table>
+            <th><h3>Datos de Contacto</h3></th>
+            <tr>
+                <td>E-mail</td>
+                <td> <p><a href="mailto:emberbelinsky@gmail.com" target="_blank">emberbelinsky@gmail.com</a></p></td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>+549341123456</td>
+            </tr>
+        </table>
+
+        <a href="https://www.instagram.com/ember.tiff/" target="_blank"><i class="fa fa-instagram"></i></a>
+       
+        <h3>Formulario de Contacto</h3>
+
+        <form action="#" name="solucionFormulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="correo@empresa.com" required maxlength="30">
+            <label for="asunto">Asunto</label>
+            <select name="asunto" id="asunto" size="3">
+                <option value="PresupuestoWeb">Pedir presupuesto web</option>
+                <option value="CitaPrevia">Solicitar cita previa</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <label for="mensaje">Escribe tu mensaje</label>
+            <textarea name="mensaje" id="mensaje" maxlength="300"></textarea>
+            <input type="submit" name="Enviar" id="button">          
+
+        </form>
+
+    </footer>
+
+</body>
+
+</html>
