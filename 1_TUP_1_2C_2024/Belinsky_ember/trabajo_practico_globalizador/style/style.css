@@ -1,44 +1,62 @@
 .head{
     box-shadow: 5mm;
     font-family: 'Rockwell', Courier, Georgia, Times, 'Times New Roman', serif;
-    margin: 20px auto;
+    margin-top: 20px auto;
     padding-top: 20% auto;
     text-emphasis: bold;
-    position: fixed;
+    position: relative;
 }
 
+div{
+    font-size: medium;
+    text-emphasis-color: rgb(127, 255, 0);
+}
 
 a{
     text-decoration-color: chartreuse;
+    text-align: center justify;
 }
 
 #fixed-menu{
-    grid-template-rows: 100% 5% 70%;
     position: fixed;
-    margin: 1%;
-    margin-left: 2%;
-    padding: 2%;
+    margin-top: -105px;
+    padding: 1%;
     background-color: rgb(182, 121, 182);
     border-radius: 5px;
     box-shadow: 0px 5px 5px;
-}
-
-.navbar navbar-expand-lg bg-body-tertiary{
-    font:chartreuse ;
+    width: 100%;
 }
 
 
-.body{
+
+
+.main{
     margin: 10%;
     padding: 50%;
-    background-color: rgb(37, 11, 37);
+    background-color: rgb(163, 119, 163);
     position: relative;
+    
+}
+
+.grid-container{
+    list-style: none;
+    box-shadow: 0px 10px 8px;
+    background-color: rgb(252, 47, 252);
+    font: 2em;
+    text-decoration-color: aliceblue;
+}
+
+#carta{
+    box-shadow: 0px 0px 5px auto;
+    margin:10% auto;
+    border: 10px;
+    padding: 10%;
 
 }
 
 #autoretrato{
-    height: 180px;
-    width: 140px;
+    height: 280px;
+    width: 210px;
     border-radius: 25px; 
 }
 
@@ -46,7 +64,8 @@ a{
   box-sizing: content-box;
   box-shadow: 0px 0px 5px;
   background-color: rgb(236, 191, 227);
-  
+  margin: 15%;
+  padding: 5%;
 }
 
 #CowboyBebop{
@@ -58,7 +77,8 @@ a{
     box-sizing: content-box;
     box-shadow: 0px 0px 5px;
     background-color: rgb(236, 191, 227);
-    
+    margin: 10%;
+    padding: 5%;
 }
 
 #cuadro{
@@ -70,11 +90,16 @@ a{
     box-sizing: content-box;
     box-shadow: 0px 0px 5px;
     background-color: rgb(236, 191, 227);
-    
+    margin: 5%;
+    padding: 5%;
 }
 
 #frame1{
     height: 720px;
     width: 1180px;
     
+}
+
+#href{
+    color: chartreuse;
 }
